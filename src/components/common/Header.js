@@ -15,6 +15,8 @@ const Header = ({loading}) => {
   );
 };
 
+// logical AND => only disaply if loading is TRUE
+
 Header.propTypes = {
   loading: PropTypes.bool.isRequired
 };
